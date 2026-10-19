@@ -1,0 +1,41 @@
+{
+  "balanced_robust_slope_fit_enabled": false,
+  "center": [
+    0.0,
+    0.0
+  ],
+  "edge_mode": "none",
+  "excluded_boundary_cells": 0,
+  "hyperbola_filter": {
+    "enabled": false,
+    "mode": "hard"
+  },
+  "metric_components": {
+    "g_tt": -0.9998780957794325,
+    "g_tx": 7.786653464611928e-08,
+    "g_xx": 1.0
+  },
+  "metric_fit": {
+    "iterations": 1,
+    "mode": "legacy_unweighted_quadratic",
+    "point_count": 505,
+    "residual_rmse": 0.11668354900549102
+  },
+  "metric_percentage": 0.7,
+  "metric_tensor": [
+    [
+      -0.9998780957794325,
+      7.786653464611928e-08
+    ],
+    [
+      7.786653464611928e-08,
+      1.0
+    ]
+  ],
+  "radius": 1,
+  "ridge_center_mode": "peak",
+  "robust_cutoff": 0.5,
+  "robust_iterations": 40,
+  "robust_scale_floor_fraction": 0.05,
+  "source_grid": "planner_softmax_average"
+}
